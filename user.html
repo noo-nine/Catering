@@ -1,106 +1,95 @@
+Got it! I’ll continue with the HTML code to complete the structure for your catering reservation and ordering system website without any styling or scripts.
+
+### Extended HTML Code
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catering Reservation and Ordering System</title>
 </head>
 <body>
+    <!-- Header with Navigation -->
     <div class="header">
         <div class="navbar">
-            <a>Home</a>
-            <a>Menu</a>
-            <a>Cart</a>
-            <a>Orders</a>
-            <a>Profile</a>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Cart</a>
+            <a href="#">Orders</a>
+            <a href="#">Profile</a>
         </div>
     </div>
+
+    <!-- Menu Section -->
     <div class="menu">
-        <P>Browse our selection of delicious dishes. Click "Add to Cart" to include an item in your order.</P>
+        <p>Browse our selection of delicious dishes. Click "Add to Cart" to include an item in your order.</p>
         <div class="dishcard">
-            <img>
+            <img src="path_to_image.jpg" alt="Dish Image">
             <div class="btmofcard">
-                <p class="abtdish"></p>
-                <p class="price"></p>
-                <i class="addtocart"></i>
+                <p class="abtdish">Dish Name</p>
+                <p class="price">$12.99</p>
+                <button class="addtocart">Add to Cart</button>
             </div>
         </div>
-        <div class="dishcard">
-            <img>
-            <div class="btmofcard">
-                <p class="abtdish"></p>
-                <p class="price"></p>
-                <i class="addtocart"></i>
-            </div>
-        </div>
-        <div class="dishcard">
-            <img>
-            <div class="btmofcard">
-                <p class="abtdish"></p>
-                <p class="price"></p>
-                <i class="addtocart"></i>
-            </div>
-        </div>
-        <div class="dishcard">
-            <img>
-            <div class="btmofcard">
-                <p class="abtdish"></p>
-                <p class="price"></p>
-                <i class="addtocart"></i>
-            </div>
-        </div>
-        <div class="dishcard">
-            <img>
-            <div class="btmofcard">
-                <p class="abtdish"></p>
-                <p class="price"></p>
-                <i class="addtocart"></i>
-            </div>
-        </div>
-        <div class="dishcard">
-            <img>
-            <div class="btmofcard">
-                <p class="abtdish"></p>
-                <p class="price"></p>
-                <i class="addtocart"></i>
-            </div>
-        </div>
-        <div class="dishcard">
-            <img>
-            <div class="btmofcard">
-                <p class="abtdish"></p>
-                <p class="price"></p>
-                <i class="addtocart"></i>
-            </div>
-        </div>
-        <div class="dishcard">
-            <img>
-            <div class="btmofcard">
-                <p class="abtdish"></p>
-                <p class="price"></p>
-                <i class="addtocart"></i>
-            </div>
-        </div>
+        <!-- Repeat .dishcard as needed for other dishes -->
     </div>
+
+    <!-- Cart Section -->
     <div class="cart">
-        <p>My Cart</p>
-        <div class="cartcardtop">
-            <div class="cartcard">
-            <img>
+        <h2>My Cart</h2>
+        <div class="cartcard">
+            <img src="path_to_image.jpg" alt="Dish Image">
             <div class="rightofcard">
-                <p id="itemdesc"></p>
-                <P>Quantity</P>
-                <a href=" ">Checkout</a>
+                <p id="itemdesc">Dish Name - $12.99</p>
+                <p>Quantity: <button>-</button> 1 <button>+</button></p>
+                <button>Remove</button>
             </div>
-            <button>-</button>
-            <span>Remove</span>
-            <button>+</button>
         </div>
-        </div>
+        <a href="#">Checkout</a>
     </div>
-    <div>
-        <h1>My Orders</h1>
-        <div></div>
+
+    <!-- Orders Section -->
+    <div class="orders">
+        <h2>My Orders</h2>
+        <div class="ordercard">
+            <p>Order #1234</p>
+            <p>Dish Name x2</p>
+            <p>Total: $25.98</p>
+            <p>Status: Delivered</p>
+        </div>
+        <!-- Repeat .ordercard as needed for other orders -->
+    </div>
+
+    <!-- Profile Section -->
+    <div class="profile">
+        <h2>Profile</h2>
+        <p>Name: John Doe</p>
+        <p>Email: john.doe@example.com</p>
+        <a href="#">Edit Profile</a>
+        <a href="#">Change Password</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Catering Company. All rights reserved.</p>
+        <p>Contact us: contact@example.com | +1 (123) 456-7890</p>
     </div>
 </body>
 </html>
+```
+
+### Explanation of Additions
+
+1. **Orders Section**:
+   - Displays a list of past orders with order number, item details, total amount, and status.
+
+2. **Profile Section**:
+   - Shows basic user information like name and email with options to edit the profile, change the password, and log out.
+
+3. **Footer**:
+   - Provides company contact information and a copyright notice.
+
+This HTML layout provides a complete structure for your catering website, allowing you to fill in specific content and adjust elements as needed. You can further enhance this by adding CSS and JavaScript to improve functionality and design.

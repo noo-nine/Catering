@@ -3,90 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TraditionFeast - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <img href="" alt="Catering Logo">
-    <div class="right">
-      <a>Home</a>
-      <a>Products</a>
-      <a>Login</a>
-      <a>Profile</a>
-      <a>Cart</a>
-      <a>My Orders</a>
-    </div>
-  </div>
-  <div class="LandingPage">
-    <div class="Content">
-      <h1>Welcome to TraditionFeast</h1>
-      <div class="contentbox">
-        <p>Discover the rich tapestry of traditional Indian cuisine brought to you by talented caterers from rural
-           towns. At TraditionFeast, we are dedicated to promoting and selling the finest local culinary delights, 
-           enabling these hidden gems to reach a global audience.</p>
-        <h2>Our Mission</h2>
-        <h3>Celebrate Tradition, Foster Growth</h3>
-        <p>TraditionFeast aims to preserve and promote the rich cultural heritage of India by providing a platform
-           for local caterers to showcase their unique culinary skills. We believe in the power of food to connect 
-           people and cultures, and our mission is to bring the authentic tastes of rural India to the world.</p>
-        <h2>What We Offer</h2>
-        <h3>For Users</h3>
-        <ul>
-          <li>Authentic Cuisine: Experience the true flavors of traditional Indian dishes, lovingly prepared using 
-            age-old recipes passed down through generations.</li>
-          <li>Local Caterers: Support local talent and businesses from rural areas, helping them gain recognition 
-            and reach new markets.</li>
-          <li>Order Management: Conveniently place and manage your orders.</li>
-        </ul>
-        <h3>For Admins</h3>
-        <ul>
-          <li>Skill Development: Empower caterers by providing opportunities for skill development, ensuring they 
-            can continue to grow and thrive in the culinary world.
-          </li>
-          <li>Cultural Promotion: By enjoying our offerings, you contribute to the preservation and promotion of 
-            India’s diverse culinary heritage.</li>
-          <li>Order Management: View and manage incoming orders efficiently.</li>
-          <li>Product Management: Add, edit, and delete catering products with ease.</li>
-          <li>User Management: Oversee user activities and maintain customer satisfaction.</li>
-        </ul>
-        <h2>Join Us in Celebrating Tradition</h2>
-        <p>Explore our range of delicious offerings, learn about the stories behind each dish, and support our 
-          mission to bring the best of traditional Indian cuisine to the global stage. Whether you’re planning a 
-          special event or simply looking to enjoy a unique meal, TraditionFeast has something for everyone.</p>
-        <h3>Taste the Tradition. Celebrate the Feast.</h3>
-      </div>
-    </div>
-    <div class="buttons">
-      <form class="form1" action="user.html">
-        <button type="submit">Get Started As a Customer</button>
-      </form>
-      <form class="form2" action="admin.html">
-        <button type="submit">Proceed To Admin Panel</button>
-      </form>
-    </div>
-  </div>
+    <header>
+        <div class="header-container">
+            <img src="path/to/logo.png" alt="Catering Logo" class="logo">
+            <nav class="navbar">
+                <a href="main.html">Home</a>
+                <a href="user.html">Products</a>
+                <a href="login.html">Login</a>
+                <a href="profile.html">Profile</a>
+                <a href="cart.html">Cart</a>
+                <a href="orders.html">My Orders</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="landing-page">
+        <section class="content">
+            <h1>Welcome to TraditionFeast</h1>
+            <div class="content-box">
+                <p>Discover the rich tapestry of traditional Indian cuisine brought to you by talented caterers from rural towns. At TraditionFeast, we are dedicated to promoting and selling the finest local culinary delights, enabling these hidden gems to reach a global audience.</p>
+                <h2>Our Mission</h2>
+                <h3>Celebrate Tradition, Foster Growth</h3>
+                <p>TraditionFeast aims to preserve and promote the rich cultural heritage of India by providing a platform for local caterers to showcase their unique culinary skills. We believe in the power of food to connect people and cultures, and our mission is to bring the authentic tastes of rural India to the world.</p>
+                <h2>What We Offer</h2>
+                <h3>For Users</h3>
+                <ul>
+                    <li>Authentic Cuisine: Experience the true flavors of traditional Indian dishes, lovingly prepared using age-old recipes passed down through generations.</li>
+                    <li>Local Caterers: Support local talent and businesses from rural areas, helping them gain recognition and reach new markets.</li>
+                    <li>Order Management: Conveniently place and manage your orders.</li>
+                </ul>
+                <h3>For Admins</h3>
+                <ul>
+                    <li>Skill Development: Empower caterers by providing opportunities for skill development, ensuring they can continue to grow and thrive in the culinary world.</li>
+                    <li>Cultural Promotion: By enjoying our offerings, you contribute to the preservation and promotion of India’s diverse culinary heritage.</li>
+                    <li>Order Management: View and manage incoming orders efficiently.</li>
+                    <li>Product Management: Add, edit, and delete catering products with ease.</li>
+                    <li>User Management: Oversee user activities and maintain customer satisfaction.</li>
+                </ul>
+                <h2>Join Us in Celebrating Tradition</h2>
+                <p>Explore our range of delicious offerings, learn about the stories behind each dish, and support our mission to bring the best of traditional Indian cuisine to the global stage. Whether you’re planning a special event or simply looking to enjoy a unique meal, TraditionFeast has something for everyone.</p>
+                <h3>Taste the Tradition. Celebrate the Feast.</h3>
+            </div>
+        </section>
+        <section class="buttons">
+            <form action="user.html">
+                <button type="submit">Get Started As a Customer</button>
+            </form>
+            <form action="admin.html">
+                <button type="submit">Proceed To Admin Panel</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TraditionFeast. All rights reserved.</p>
+    </footer>
+
     <script type="module">
-        // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        
         const firebaseConfig = {
-          apiKey: "AIzaSyBtbMYXCNG7hpPOdEcnhGc7GKll4ST4tdQ",
-          authDomain: "test-ddbd1.firebaseapp.com",
-          projectId: "test-ddbd1",
-          storageBucket: "test-ddbd1.appspot.com",
-          messagingSenderId: "829773070835",
-          appId: "1:829773070835:web:05fb142b06e30b42dfd286",
-          measurementId: "G-EQ31SSMXC9"
+            apiKey: "AIzaSyBtbMYXCNG7hpPOdEcnhGc7GKll4ST4tdQ",
+            authDomain: "test-ddbd1.firebaseapp.com",
+            projectId: "test-ddbd1",
+            storageBucket: "test-ddbd1.appspot.com",
+            messagingSenderId: "829773070835",
+            appId: "1:829773070835:web:05fb142b06e30b42dfd286",
+            measurementId: "G-EQ31SSMXC9"
         };
-      
-        // Initialize Firebase
+        
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-      </script>
+    </script>
 </body>
 </html>
